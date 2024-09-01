@@ -9,7 +9,7 @@ const Myprofile = () => {
     const [data,setData] = useState(null);
     
     useEffect(() =>{
-axios.get('http://localhost:5000/myprofile',{
+axios.get('https://back-eszn.onrender.com/myprofile',{
     headers: {
         'x-token': token
     }
